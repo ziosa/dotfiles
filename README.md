@@ -115,3 +115,51 @@ Suggestions/improvements
 * [Haralan Dobrev](http://hkdobrev.com/)
 
 * anyone who [contributed a patch](https://github.com/mathiasbynens/dotfiles/contributors) or [made a helpful suggestion](https://github.com/mathiasbynens/dotfiles/issues)
+
+
+aggiungere ssh
+sublime configuration presi da bevaqua
+daile rees colors
+
+
+in osx installa sublime, fare una funzione in bootstrap.sh copiando dalle app csi di paolo per fare le funzioni
+installare node e node -g httpset
+
+
+sistemare il mio git config con il gist
+
+#!/bin/sh
+#
+# Brew packages that I use alot.
+#
+brew install wget
+brew install homebrew/dupes/tidy
+brew install homebrew/php/php56
+brew install homebrew/php/php56-xdebug
+brew install homebrew/php/phpsh
+brew install fish
+brew install ffmpeg
+brew install node
+brew install imagemagick
+#
+# Some cask packages that I like.
+#
+brew cask install aquamacs
+brew cask install dropbox
+brew cask install textexpander
+brew cask install sublime-text
+brew cask install macvim
+brew cask install alfred
+brew cask install controlplane
+brew cask install gimp
+brew cask install google-chrome
+brew cask install inkscape
+brew cask install xquartz
+brew cask install virtualbox
+
+
+brew install git bash-completion
+
+
+
+ssh ?????
