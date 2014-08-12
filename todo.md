@@ -258,3 +258,6 @@ To update later on, just run the sync again.
 
 cercare come settare hostname, lo avevoe visto su uno dei link di mathias in basso nel readme o da bevaqua
 ssh ?????
+
+
+quicklook plugins
