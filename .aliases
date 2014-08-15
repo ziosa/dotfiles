@@ -142,3 +142,19 @@ alias reload="exec $SHELL -l"
 
 # Faster npm for Europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
+
+##
+# Command to empty Trash with 35-pass security method. This is the most secure deletion,
+# so you will not be able to recover any file deleted with this method.
+# Replace <MAC_USER> with your Mac username.
+##
+alias secureEmptyTrash="srm -rfv /Users/$USER/.Trash/*"
+
+
+##
+# Command to empty Trash with 7-pass security method that meets the
+# US Department of Defense standard for securely erasing data.
+# Notice '-m' flag in the command that applies "medium" removal security (7-pass).
+# Replace <MAC_USER> with your Mac username.
+##
+alias emptyTrash="srm -rfv -m /Users/$USER/.Trash/*"
