@@ -45,3 +45,14 @@ function json() {
 		python -mjson.tool | pygmentize -l javascript;
 	fi;
 }
+
+#create a gzipped tarball and encrypt it using gpg with aes256 chiper
+function encrypt() {
+    tar cz $1 | gpg -c --cipher-algo aes256 -o $(echo $1 | sed -e 's/\///g').tar.gz.gpg
+}
+
+#decrypt and extract using gpg and tar
+function decrypt() {
+    gpg -d $1 | tar xzvf -
+}
+
