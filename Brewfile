@@ -60,5 +60,7 @@ install zopfli
 
 install homebrew/versions/lua52
 
+
+install gpg
 # Remove outdated versions from the cellar
 cleanup
