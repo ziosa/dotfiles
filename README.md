@@ -6,11 +6,20 @@ Please refer to his documentation for more details.
 
 ## Installation
 
-You can clone the repository wherever you want. (I like to keep it in `~/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
+You can clone the repository wherever you want. (I like to keep it in `~/dotfiles`) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 
-	git clone https://github.com/vesparny/dotfiles.git && cd dotfiles && source bootstrap.sh
+	git clone https://github.com/vesparny/dotfiles.git
+	cd dotfiles
+	./bootstrap.sh
+	
+## Updating
 
+from the `dotfiles` repo folder just run
+	
+	./bootstrap.sh
+	
+this will pull the repo and update your dotfiles.
 
 ### `.path`
 
@@ -49,7 +58,6 @@ Useful aliases like:
 
 vim config.
 
-
 ### Sensible OS X defaults
 
 When setting up a new Mac, you may want to set some sensible OS X defaults:
@@ -67,7 +75,6 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 You could also install native apps with [`brew cask`](https://github.com/phinze/homebrew-cask):
 
 	brew bundle ~/Caskfile
-
 
 ### `init/` folder
 
