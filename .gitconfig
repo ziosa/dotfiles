@@ -123,20 +123,22 @@
 	log = true
 	tool = p4merge
 	tool = kdiff3
+	
+[mergetool]
+	keepBackup = false
+
 
 [mergetool "p4merge"]
 
 	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "$PWD/$BASE" "$PWD/$LOCAL" "$PWD/$REMOTE" "$PWD/$MERGED"
 	keepTemporaries = false
 	trustExitCode = false
-	keepBackup = false
 
 [mergetool "kdiff3"]
 
 	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	keepTemporaries = false
 	trustExitCode = false
-	keepBackup = false
 
 [diff]
 
