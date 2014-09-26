@@ -17,3 +17,4 @@ cask install torbrowser 2> /dev/null
 cask install ukelele 2> /dev/null
 cask install virtualbox 2> /dev/null
 cask install vlc 2> /dev/null
+cask install licecap 2> /dev/null
